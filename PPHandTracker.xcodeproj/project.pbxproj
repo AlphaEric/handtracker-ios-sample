@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D441ABB279665080089AA9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D441ABA279665080089AA9F /* AppDelegate.m */; };
+		7D441ABE279665080089AA9F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D441ABD279665080089AA9F /* SceneDelegate.m */; };
+		7D441AC1279665080089AA9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D441AC0279665080089AA9F /* ViewController.m */; };
+		7D441AC6279665090089AA9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D441AC5279665090089AA9F /* Assets.xcassets */; };
+		7D441AC9279665090089AA9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D441AC7279665090089AA9F /* LaunchScreen.storyboard */; };
+		7D441ACC2796650A0089AA9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D441ACB2796650A0089AA9F /* main.m */; };
+		7D441AD62796650A0089AA9F /* PPHandTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D441AD52796650A0089AA9F /* PPHandTrackerTests.m */; };
+		7D441AE02796650A0089AA9F /* PPHandTrackerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D441ADF2796650A0089AA9F /* PPHandTrackerUITests.m */; };
+		7D441AE22796650A0089AA9F /* PPHandTrackerUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D441AE12796650A0089AA9F /* PPHandTrackerUITestsLaunchTests.m */; };
+		7D441AFE27966BFB0089AA9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D441AFD27966BFB0089AA9F /* Main.storyboard */; };
+		7D441B0627966CAC0089AA9F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D441B0527966CAC0089AA9F /* AVFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		7D441B0B27966F060089AA9F /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D441B0927966F060089AA9F /* Camera.m */; };
+		7D441B14279696130089AA9F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7D441B13279696120089AA9F /* README.md */; };
+		7D441B1E2796A5380089AA9F /* convert.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D441B1D2796A5380089AA9F /* convert.m */; };
+		7D441B222796A77B0089AA9F /* HandTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D441B212796A77B0089AA9F /* HandTracker.framework */; platformFilter = ios; };
+		7D441B232796A77B0089AA9F /* HandTracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7D441B212796A77B0089AA9F /* HandTracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D441AD22796650A0089AA9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D441AAE279665080089AA9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D441AB5279665080089AA9F;
+			remoteInfo = PPHandTracker;
+		};
+		7D441ADC2796650A0089AA9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D441AAE279665080089AA9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D441AB5279665080089AA9F;
+			remoteInfo = PPHandTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7D441B1927969B8F0089AA9F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = I;
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D441B242796A77B0089AA9F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7D441B232796A77B0089AA9F /* HandTracker.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7D441AB6279665080089AA9F /* PPHandTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPHandTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D441AB9279665080089AA9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D441ABA279665080089AA9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D441ABC279665080089AA9F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7D441ABD279665080089AA9F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7D441ABF279665080089AA9F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7D441AC0279665080089AA9F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D441AC5279665090089AA9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D441AC8279665090089AA9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D441ACA2796650A0089AA9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D441ACB2796650A0089AA9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D441AD12796650A0089AA9F /* PPHandTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPHandTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D441AD52796650A0089AA9F /* PPHandTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPHandTrackerTests.m; sourceTree = "<group>"; };
+		7D441ADB2796650A0089AA9F /* PPHandTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPHandTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D441ADF2796650A0089AA9F /* PPHandTrackerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPHandTrackerUITests.m; sourceTree = "<group>"; };
+		7D441AE12796650A0089AA9F /* PPHandTrackerUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPHandTrackerUITestsLaunchTests.m; sourceTree = "<group>"; };
+		7D441AFD27966BFB0089AA9F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7D441B0527966CAC0089AA9F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7D441B0927966F060089AA9F /* Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
+		7D441B0A27966F060089AA9F /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		7D441B13279696120089AA9F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		7D441B1C2796A5380089AA9F /* convert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = convert.h; sourceTree = "<group>"; };
+		7D441B1D2796A5380089AA9F /* convert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = convert.m; sourceTree = "<group>"; };
+		7D441B212796A77B0089AA9F /* HandTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HandTracker.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D441AB3279665080089AA9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D441B222796A77B0089AA9F /* HandTracker.framework in Frameworks */,
+				7D441B0627966CAC0089AA9F /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D441ACE2796650A0089AA9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D441AD82796650A0089AA9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D441AAD279665080089AA9F = {
+			isa = PBXGroup;
+			children = (
+				7D441AB8279665080089AA9F /* PPHandTracker */,
+				7D441AD42796650A0089AA9F /* PPHandTrackerTests */,
+				7D441ADE2796650A0089AA9F /* PPHandTrackerUITests */,
+				7D441AB7279665080089AA9F /* Products */,
+				7D441AFF27966C450089AA9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7D441AB7279665080089AA9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D441AB6279665080089AA9F /* PPHandTracker.app */,
+				7D441AD12796650A0089AA9F /* PPHandTrackerTests.xctest */,
+				7D441ADB2796650A0089AA9F /* PPHandTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D441AB8279665080089AA9F /* PPHandTracker */ = {
+			isa = PBXGroup;
+			children = (
+				7D441B0827966EDD0089AA9F /* tracker */,
+				7D441AB9279665080089AA9F /* AppDelegate.h */,
+				7D441ABA279665080089AA9F /* AppDelegate.m */,
+				7D441ABC279665080089AA9F /* SceneDelegate.h */,
+				7D441ABD279665080089AA9F /* SceneDelegate.m */,
+				7D441ABF279665080089AA9F /* ViewController.h */,
+				7D441AC0279665080089AA9F /* ViewController.m */,
+				7D441AFD27966BFB0089AA9F /* Main.storyboard */,
+				7D441AC5279665090089AA9F /* Assets.xcassets */,
+				7D441AC7279665090089AA9F /* LaunchScreen.storyboard */,
+				7D441ACA2796650A0089AA9F /* Info.plist */,
+				7D441ACB2796650A0089AA9F /* main.m */,
+				7D441B13279696120089AA9F /* README.md */,
+				7D441B1C2796A5380089AA9F /* convert.h */,
+				7D441B1D2796A5380089AA9F /* convert.m */,
+			);
+			path = PPHandTracker;
+			sourceTree = "<group>";
+		};
+		7D441AD42796650A0089AA9F /* PPHandTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D441AD52796650A0089AA9F /* PPHandTrackerTests.m */,
+			);
+			path = PPHandTrackerTests;
+			sourceTree = "<group>";
+		};
+		7D441ADE2796650A0089AA9F /* PPHandTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D441ADF2796650A0089AA9F /* PPHandTrackerUITests.m */,
+				7D441AE12796650A0089AA9F /* PPHandTrackerUITestsLaunchTests.m */,
+			);
+			path = PPHandTrackerUITests;
+			sourceTree = "<group>";
+		};
+		7D441AFF27966C450089AA9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D441B212796A77B0089AA9F /* HandTracker.framework */,
+				7D441B0527966CAC0089AA9F /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D441B0827966EDD0089AA9F /* tracker */ = {
+			isa = PBXGroup;
+			children = (
+				7D441B0A27966F060089AA9F /* Camera.h */,
+				7D441B0927966F060089AA9F /* Camera.m */,
+			);
+			path = tracker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D441AB5279665080089AA9F /* PPHandTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D441AE52796650A0089AA9F /* Build configuration list for PBXNativeTarget "PPHandTracker" */;
+			buildPhases = (
+				7D441AB2279665080089AA9F /* Sources */,
+				7D441AB3279665080089AA9F /* Frameworks */,
+				7D441AB4279665080089AA9F /* Resources */,
+				7D441B1927969B8F0089AA9F /* CopyFiles */,
+				7D441B242796A77B0089AA9F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPHandTracker;
+			productName = PPHandTracker;
+			productReference = 7D441AB6279665080089AA9F /* PPHandTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D441AD02796650A0089AA9F /* PPHandTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D441AE82796650A0089AA9F /* Build configuration list for PBXNativeTarget "PPHandTrackerTests" */;
+			buildPhases = (
+				7D441ACD2796650A0089AA9F /* Sources */,
+				7D441ACE2796650A0089AA9F /* Frameworks */,
+				7D441ACF2796650A0089AA9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D441AD32796650A0089AA9F /* PBXTargetDependency */,
+			);
+			name = PPHandTrackerTests;
+			productName = PPHandTrackerTests;
+			productReference = 7D441AD12796650A0089AA9F /* PPHandTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D441ADA2796650A0089AA9F /* PPHandTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D441AEB2796650A0089AA9F /* Build configuration list for PBXNativeTarget "PPHandTrackerUITests" */;
+			buildPhases = (
+				7D441AD72796650A0089AA9F /* Sources */,
+				7D441AD82796650A0089AA9F /* Frameworks */,
+				7D441AD92796650A0089AA9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D441ADD2796650A0089AA9F /* PBXTargetDependency */,
+			);
+			name = PPHandTrackerUITests;
+			productName = PPHandTrackerUITests;
+			productReference = 7D441ADB2796650A0089AA9F /* PPHandTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D441AAE279665080089AA9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7D441AB5279665080089AA9F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7D441AD02796650A0089AA9F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7D441AB5279665080089AA9F;
+					};
+					7D441ADA2796650A0089AA9F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7D441AB5279665080089AA9F;
+					};
+				};
+			};
+			buildConfigurationList = 7D441AB1279665080089AA9F /* Build configuration list for PBXProject "PPHandTracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D441AAD279665080089AA9F;
+			productRefGroup = 7D441AB7279665080089AA9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D441AB5279665080089AA9F /* PPHandTracker */,
+				7D441AD02796650A0089AA9F /* PPHandTrackerTests */,
+				7D441ADA2796650A0089AA9F /* PPHandTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D441AB4279665080089AA9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D441AC9279665090089AA9F /* LaunchScreen.storyboard in Resources */,
+				7D441AC6279665090089AA9F /* Assets.xcassets in Resources */,
+				7D441B14279696130089AA9F /* README.md in Resources */,
+				7D441AFE27966BFB0089AA9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D441ACF2796650A0089AA9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D441AD92796650A0089AA9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D441AB2279665080089AA9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D441AC1279665080089AA9F /* ViewController.m in Sources */,
+				7D441B0B27966F060089AA9F /* Camera.m in Sources */,
+				7D441ABB279665080089AA9F /* AppDelegate.m in Sources */,
+				7D441B1E2796A5380089AA9F /* convert.m in Sources */,
+				7D441ACC2796650A0089AA9F /* main.m in Sources */,
+				7D441ABE279665080089AA9F /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D441ACD2796650A0089AA9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D441AD62796650A0089AA9F /* PPHandTrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D441AD72796650A0089AA9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D441AE22796650A0089AA9F /* PPHandTrackerUITestsLaunchTests.m in Sources */,
+				7D441AE02796650A0089AA9F /* PPHandTrackerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D441AD32796650A0089AA9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D441AB5279665080089AA9F /* PPHandTracker */;
+			targetProxy = 7D441AD22796650A0089AA9F /* PBXContainerItemProxy */;
+		};
+		7D441ADD2796650A0089AA9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D441AB5279665080089AA9F /* PPHandTracker */;
+			targetProxy = 7D441ADC2796650A0089AA9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D441AC7279665090089AA9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D441AC8279665090089AA9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D441AE32796650A0089AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D441AE42796650A0089AA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D441AE62796650A0089AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47CUNXD8KQ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"${SRCROOT}",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PPHandTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zd.01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D441AE72796650A0089AA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47CUNXD8KQ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"${SRCROOT}",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PPHandTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zd.01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7D441AE92796650A0089AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47CUNXD8KQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zd.handtracker.PPHandTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PPHandTracker.app/PPHandTracker";
+			};
+			name = Debug;
+		};
+		7D441AEA2796650A0089AA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47CUNXD8KQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zd.handtracker.PPHandTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PPHandTracker.app/PPHandTracker";
+			};
+			name = Release;
+		};
+		7D441AEC2796650A0089AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47CUNXD8KQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zd.handtracker.PPHandTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PPHandTracker;
+			};
+			name = Debug;
+		};
+		7D441AED2796650A0089AA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47CUNXD8KQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zd.handtracker.PPHandTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PPHandTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D441AB1279665080089AA9F /* Build configuration list for PBXProject "PPHandTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D441AE32796650A0089AA9F /* Debug */,
+				7D441AE42796650A0089AA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D441AE52796650A0089AA9F /* Build configuration list for PBXNativeTarget "PPHandTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D441AE62796650A0089AA9F /* Debug */,
+				7D441AE72796650A0089AA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D441AE82796650A0089AA9F /* Build configuration list for PBXNativeTarget "PPHandTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D441AE92796650A0089AA9F /* Debug */,
+				7D441AEA2796650A0089AA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D441AEB2796650A0089AA9F /* Build configuration list for PBXNativeTarget "PPHandTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D441AEC2796650A0089AA9F /* Debug */,
+				7D441AED2796650A0089AA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D441AAE279665080089AA9F /* Project object */;
+}
