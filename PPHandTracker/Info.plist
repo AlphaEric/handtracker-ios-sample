@@ -17,8 +17,11 @@
 					<string>SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
 					<string>Main</string>
+
 				</dict>
 			</array>
+            <key>NSCameraUsageDescription</key>
+            <string>Camera used allowed</string>
 		</dict>
 	</dict>
 </dict>
